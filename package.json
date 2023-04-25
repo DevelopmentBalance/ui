@@ -1,10 +1,10 @@
 {
   "name": "@appbalance/ui",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Project Design Balance",
   "files": [
     "/lib",
-    "/node_modules"
+    "node_modules/**/**"
   ],
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
