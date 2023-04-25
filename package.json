@@ -1,12 +1,16 @@
 {
-  "name": "@balance/ui",
-  "version": "1.0.0",
+  "name": "@appballance/ui",
+  "version": "1.0.1",
   "description": "Project Design Balance",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
+  },
+  "repository": "https://github.com/DevelopmentBalance/ui.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [],
   "author": "Carlos Calenzo",
