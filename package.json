@@ -1,6 +1,6 @@
 {
-  "name": "@appballance/ui",
-  "version": "1.0.11",
+  "name": "@appbalance/ui",
+  "version": "1.0.14",
   "description": "Project Design Balance",
   "files": [
     "/lib"
@@ -15,9 +15,9 @@
     "build": "rollup -c",
     "prepublishOnly": "yarn build"
   },
-  "repository": "https://github.com/DevelopmentBalance/ui.git",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevelopmentBalance/ui.git"
   },
   "keywords": [],
   "author": "Carlos Calenzo",
@@ -49,5 +49,12 @@
   "dependencies": {
     "react-loading": "^2.0.3",
     "styled-components": "^5.3.10"
+  },
+  "bugs": {
+    "url": "https://github.com/DevelopmentBalance/ui/issues"
+  },
+  "homepage": "https://github.com/DevelopmentBalance/ui#readme",
+  "directories": {
+    "lib": "lib"
   }
 }
