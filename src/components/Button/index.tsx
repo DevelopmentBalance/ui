@@ -14,7 +14,7 @@ export interface IButton {
   width: string;
 }
 
-const Button = ({
+export const Button = ({
   onClick = () => {},
   bgColor = "#9448BC",
   children = "Children",
@@ -48,5 +48,3 @@ const Button = ({
     </S.ButtonElement>
   );
 };
-
-export default Button;
