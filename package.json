@@ -1,6 +1,6 @@
 {
   "name": "@appbalance/ui",
-  "version": "1.0.17",
+  "version": "1.0.1",
   "description": "Project Design Balance",
   "files": [
     "/lib"
@@ -50,10 +50,6 @@
     "react-loading": "^2.0.3",
     "styled-components": "^5.3.10"
   },
-  "bugs": {
-    "url": "https://github.com/DevelopmentBalance/ui/issues"
-  },
-  "homepage": "https://github.com/DevelopmentBalance/ui#readme",
   "directories": {
     "lib": "lib"
   }
