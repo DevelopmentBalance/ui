@@ -2,11 +2,6 @@ import React from "react";
 
 import * as S from "./styles";
 
-export enum IButtonSize {
-  MEDIUM = "medium",
-  SMALL = "small"
-}
-
 export interface IButton {
   onClick: () => void;
   bgColor?: string;
@@ -15,7 +10,7 @@ export interface IButton {
   loading?: string;
   typeLoading?: string;
   color?: string;
-  size: IButtonSize;
+  size: 'small' | 'medium';
   width: string;
 }
 
@@ -27,7 +22,7 @@ const Button = ({
   loading,
   typeLoading = "bubbles",
   color = "#9448BC",
-  size = IButtonSize.SMALL,
+  size = 'small',
   width,
   ...restProps
 }: IButton) => {

@@ -2,7 +2,6 @@ import ReactLoading from "react-loading";
 import styled, { css } from "styled-components";
 import { transparentize, shade } from "polished";
 
-import { IButtonSize } from ".";
 
 const sizes = {
   small: css`
@@ -18,7 +17,7 @@ const sizes = {
 export const ButtonElement = styled.button<{
   bgColor: string;
   loading: string;
-  size: IButtonSize;
+  size: 'small' | 'medium';
   width: string;
 }>`
   background-color: ${({ bgColor, loading }) =>
