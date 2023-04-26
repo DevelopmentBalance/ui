@@ -40,6 +40,7 @@
     "@storybook/react": "^7.0.7",
     "@storybook/react-webpack5": "^7.0.7",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/styled-components": "^5.1.26",
     "prop-types": "^15.8.1",
     "rollup": "^2.34.2",
     "rollup-plugin-commonjs": "^10.1.0",
@@ -53,10 +54,10 @@
   },
   "peerDependencies": {
     "@types/react": "^17.0.0 || ^18.0.0",
-    "react": "^17.0.0 || ^18.0.0",
-    "react-loading": "^2.0.3",
     "polished": "^4.2.2",
+    "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0",
+    "react-loading": "^2.0.3",
     "styled-components": "^5.3.10"
   },
   "peerDependenciesMeta": {
@@ -67,7 +68,6 @@
       "optional": true
     }
   },
-
   "directories": {
     "lib": "lib"
   }
