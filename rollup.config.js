@@ -13,8 +13,6 @@ export default [
       dir: "lib",
       format: "esm",
       sourcemap: true,
-      preserveModules: true,
-      preserveModulesRoot: 'src',  
     },
     external: ['react', 'react-dom'],
     plugins: [

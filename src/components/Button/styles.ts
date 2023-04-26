@@ -1,4 +1,4 @@
-import ReactLoading from "react-loading";
+// import ReactLoading from "react-loading";
 import styled, { css } from "styled-components";
 import { transparentize, shade } from "polished";
 
@@ -46,6 +46,6 @@ export const ButtonElement = styled.button<{
   width: ${({ width }) => width};
 `;
 
-export const ButtonLoading = styled(ReactLoading as any)`
-  display: ${({ loading }) => (loading === "true" ? "initial" : "none")};
-`;
+// export const ButtonLoading = styled(ReactLoading as any)`
+//   display: ${({ loading }) => (loading === "true" ? "initial" : "none")};
+// `;
