@@ -9,7 +9,7 @@
     "jsx": "react-jsx",
     "module": "ESNext",
     "declaration": true,
-    "declarationDir" :"types",
+    "declarationDir" :"lib",
     "sourceMap": true,
     "outDir": "lib",
     "moduleResolution": "node",
