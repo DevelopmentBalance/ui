@@ -1,7 +1,7 @@
 import React from 'react'
 import type { Meta, StoryFn } from '@storybook/react';
 
-import Button, { IButton, IButtonSize } from '.'
+import  { IButton, } from '.'
 
 export default {
   title: 'Components/Button',

@@ -38,13 +38,13 @@ export const Button = ({
       {...restProps}
     >
       {textButton}
-      <S.ButtonLoading
+      {/* <S.ButtonLoading
         type={typeLoading}
         color={color}
         loading={`${loading}`}
         height={40}
         width={40}
-      />
+      /> */}
     </S.ButtonElement>
   );
 };
